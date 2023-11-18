@@ -1,0 +1,22 @@
+Way_Payroll_Gitjek.py::Loginpage::test_login_page
+--------------------------------------------------------------------
+Last Page: https://waypayroll.com/dashboard/
+ Duration: 10.75s
+  Browser: Chrome 119.0.6045.106
+   Driver: chromedriver 119.0.6045.105
+Timestamp: 1700211037  (Unix Timestamp)
+     Date: Friday, 17 November 2023
+     Time: 2:20:37 PM  (India Standard Time, UTC+05:30)
+--------------------------------------------------------------------
+Traceback:
+  File "D:\QA Projects\Gitjek\Way_Payroll_Gitjek.py", line 17, in test_login_page
+    self.click("//h3[contains(text(),'Joint venture of Delhi and Damascus-New Delhi')]")
+  File "D:\QA Projects\Gitjek\venv\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 406, in click
+    element = page_actions.wait_for_element_visible(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\QA Projects\Gitjek\venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 508, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "D:\QA Projects\Gitjek\venv\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 266, in timeout_exception
+    raise exc(msg)
+Exception: Message: 
+ Element {//h3[contains(text(),'Joint venture of Delhi and Damascus-New Delhi')]} was not present after 7 seconds!
